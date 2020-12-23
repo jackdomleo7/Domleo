@@ -43,5 +43,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+  },
+  generate: {
+    dir: '../docs',
+    fallback: '404.html',
+  },
+  publicPath: '/'
 }
