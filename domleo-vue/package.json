@@ -23,6 +23,9 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.0",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/plugin-transform-flow-strip-types": "^7.12.10",
     "@babel/preset-env": "^7.12.0",
     "@babel/preset-typescript": "^7.12.0",
     "@rollup/plugin-alias": "^3.1.1",
@@ -40,6 +43,7 @@
     "rollup-plugin-vue": "^5.1.9",
     "typescript": "^3.8.3",
     "vue": "^2.6.12",
+    "vue-property-decorator": "^9.1.2",
     "vue-template-compiler": "^2.6.12"
   },
   "peerDependencies": {
