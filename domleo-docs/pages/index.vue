@@ -24,16 +24,16 @@
         </a>
       </div>
     </div>
-    <domleo-vue-sample />
+    <btn />
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator';
-import { DomleoVueSample } from 'domleo-vue';
+import { Btn } from 'domleo-vue';
 
 @Component({
-  components: { DomleoVueSample }
+  components: { Btn }
 })
 export default class Index extends Vue {}
 </script>
