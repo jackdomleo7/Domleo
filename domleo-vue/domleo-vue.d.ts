@@ -4,4 +4,4 @@ import Vue, { PluginFunction, VueConstructor } from 'vue';
 declare const DomleoVue: PluginFunction<any>;
 export default DomleoVue;
 
-export const Btn: VueConstructor<Vue>;
+export const DBtn: VueConstructor<Vue>;
